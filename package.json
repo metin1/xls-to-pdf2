@@ -1,0 +1,31 @@
+{
+  "name": "xml-to-json-to-pdf",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@react-pdf/renderer": "^2.0.15",
+    "aos": "^2.3.4",
+    "convert-excel-to-json": "^1.7.0",
+    "date-fns": "^2.22.1",
+    "fs": "^0.0.1-security",
+    "jspdf": "^2.3.1",
+    "jspdf-autotable": "^3.5.14",
+    "next": "11.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-pdf": "^5.3.0",
+    "react-to-pdf": "^0.0.14",
+    "react-virtualized": "^9.22.3",
+    "react-window": "^1.8.6",
+    "toastify-js": "^1.11.0",
+    "xlsx": "^0.17.0"
+  }
+}

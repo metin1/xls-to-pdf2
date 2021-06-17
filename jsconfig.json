@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/slices/*": ["redux/slices/*"],
+      "@/reducers/*": ["redux/reducers/*"],
+      "@/utils/*":["utils/*"],
+      "@/models/*":["@Spare/models/*"],
+      "@/lib/*":["lib/*"],
+      "@/middlewares/*": ["middlewares/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/db/*": ["db/*"],
+      "@/assets/*": ["assets/*"],
+      "@/pages/*": ["pages/*"],
+    }
+  },
+  "checkjs": true
+}

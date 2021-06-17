@@ -1,0 +1,187 @@
+/*
+ * Toastify js 1.9.3
+ * https://github.com/apvarun/toastify-js
+ * @license MIT licensed
+ *
+ * Copyright (C) 2018 Varun A P
+ */
+.toastify-light {
+	color: #7d7168;
+}
+.toastify {
+	padding: 12px 20px;
+	color: #ffffff;
+	display: flex;
+	box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.12), 0 10px 36px -4px rgba(77, 96, 232, 0.3);
+	background: -webkit-linear-gradient(315deg, #73a5ff, #5477f5);
+	background: linear-gradient(135deg, #73a5ff, #5477f5);
+	position: fixed;
+	opacity: 0;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+	border-radius: 2px;
+	cursor: pointer;
+	text-decoration: none;
+	max-width: calc(50% - 20px);
+	z-index: 2147483647;
+	opacity: 0.8;
+	backdrop-filter: blur(9.5px);
+	-webkit-backdrop-filter: blur(9.5px);
+	border-radius: 10px;
+	justify-content: space-between;
+}
+
+.toastify.on {
+	opacity: 1;
+}
+
+.toast-close {
+	opacity: 0.6;
+	padding: 0 5px;
+	position: relative;
+	right: 0px;
+}
+.toast-close:hover {
+	opacity: 1;
+}
+
+.toastify-right {
+	right: 15px;
+}
+
+.toastify-left {
+	left: 15px;
+}
+
+.toastify-top {
+	top: -150px;
+}
+
+.toastify-bottom {
+	bottom: -150px;
+}
+
+.toastify-rounded {
+	border-radius: 25px;
+}
+
+.toastify-avatar {
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0px 17px 0px -1px;
+	border-radius: 2px;
+	align-self: center;
+}
+
+.toastify-center {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+@media only screen and (max-width: 670px) {
+	.toastify {
+		max-width: 80%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.toastify-right,
+	.toastify-left {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		max-width: fit-content;
+	}
+	.toastify {
+		max-width: 95%;
+	}
+}
+
+.tostify-glass {
+	background: rgba(243, 67, 53, 0.30);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(5.5px);
+	-webkit-backdrop-filter: blur(5.5px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/*!
+ * ReactToast js 1.9.3
+ * https://github.com/apvarun/toastify-js
+ * @license MIT licensed
+ *
+ * Copyright (C) 2018 Varun A P
+ */
+/* .ReactToast {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: Arial, Helvetica, sans-serif;
+	width: calc(100vw - 20px);
+	min-height: 80px;
+	background: rgb(255, 255, 255);
+	position: fixed;
+	bottom: 10px;
+	right: -100vw;
+	transition: right 1s ease-in;
+	z-index: 100000;
+	line-height: 1.25;
+	padding: 10px 10px 10px 6px;
+	text-align: left;
+	color: #333;
+	border-left: 12px #e5e5e5 solid;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+	letter-spacing: -0.5px;
+	box-sizing: border-box;
+}
+.ReactToast:hover {
+	cursor: default;
+}
+@media (min-width: 480px) {
+	.ReactToast {
+		top: 10px;
+		bottom: initial;
+		width: 300px;
+	}
+}
+.ReactToast.success {
+	border-left-color: #2bde3f;
+}
+.ReactToast.info {
+	border-left-color: #1d72f3;
+}
+.ReactToast.warning {
+	border-left-color: #ffc007;
+}
+.ReactToast.error {
+	border-left-color: rgb(235, 77, 96);
+}
+.ReactToast.isOpen {
+	transition: right 1s ease-out;
+	right: 10px;
+}
+.ReactToast--title {
+	margin: 0 0 5px 0;
+	font-size: 22px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ReactToast--description,
+.ReactToast p {
+	font-size: 14px;
+}
+.ReactToast--close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-size: 24px;
+	padding-right: 5px;
+	color: rgba(0, 0, 0, 0.6);
+} */
